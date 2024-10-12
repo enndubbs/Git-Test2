@@ -7,9 +7,8 @@ use_git_config(user.name = "Enndubbs", user.email = "noahwright@gmail.com")
 use_git()
 
 create_github_token()
-git_credential_ask
+git_credential_ask()
+git_credential_update()
 use_github()
-  
-check_for_git()
 
-gitcreds_set_new("https://github.com")
+set_github_pat()
